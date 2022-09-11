@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/* main - print the last digit of n
+/**
+ * main - print the last digit of n
  *
  * Return: 0
  */
@@ -16,7 +17,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	t= n % 10;
+	t = n % 10;
 	
 	if (t > 5)
 	{
@@ -30,7 +31,5 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, t);
 	}
-
 	return (0);
-
 }
