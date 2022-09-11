@@ -10,7 +10,7 @@ int main(void)
 	char n;
 	char cr;
 
-	for (n = '0'; n <='9'; n++)
+	for (n = '0'; n <= '9'; n++)
 	{
 		putchar(n);
 	}
