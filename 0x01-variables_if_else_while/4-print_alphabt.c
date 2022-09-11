@@ -10,7 +10,7 @@ int main(void)
 {
 	int cr;
 
-	for (cr = 'a'; cr < 'z'; cr++)
+	for (cr = 'a'; cr <= 'z'; cr++)
 	{
 		if (cr == 'e')
 		{
