@@ -7,7 +7,7 @@
  *
  *
  * main - Program to print '_putchar' on standard output
- * printing _putchar
+ * Description: printing _putchar
  *
  * Return:0
  */
