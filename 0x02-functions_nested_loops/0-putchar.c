@@ -5,6 +5,10 @@
  *Printing - printing _putchar
  *@void: not parameter
  *
+ * Description: print _putchar
+ *
+ **
+ *
  * main - Program to print '_putchar' on standard output
  *
  * Return:0
