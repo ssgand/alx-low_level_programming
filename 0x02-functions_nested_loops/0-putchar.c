@@ -6,7 +6,8 @@
  *
  * Return: 0
  *
- ** printing - printing _putchar
+ * printing - printing _putchar
+ * @void: no return
  */
 void printing(void)
 {
