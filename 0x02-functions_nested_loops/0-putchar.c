@@ -4,8 +4,8 @@
 /**
  * main - Program to print '_putchar' on standard output
  *
- **
  * printing - function that will print _putchar
+ * Description: print _putchar
  *
  * Return:0
  */
