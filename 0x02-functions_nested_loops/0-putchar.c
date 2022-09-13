@@ -2,14 +2,12 @@
 #include <stdio.h>
 
 /**
- *Printing - printing _putchar
- *@void: not parameter
- *
+ * printing - printing _putchar
  * Description: print _putchar
  *
- **
  *
  * main - Program to print '_putchar' on standard output
+ * printing _putchar
  *
  * Return:0
  */
