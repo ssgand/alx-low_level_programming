@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -12,6 +13,6 @@ void printing()
 
 int main(void)
 {
-	printing();
+	printing();	
 	return (0);
 }
