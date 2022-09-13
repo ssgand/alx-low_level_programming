@@ -8,6 +8,8 @@
  *
  * printing - printing _putchar
  * @void: no return
+ *
+ * print _putchar
  */
 void printing(void)
 {
