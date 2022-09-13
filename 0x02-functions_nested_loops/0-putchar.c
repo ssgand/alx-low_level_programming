@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - Program to print '_putchar' on standard output
+ *Printing - printing _putchar
+ *@void: not parameter
  *
- * printing - function that will print _putchar
- * Description: print _putchar
+ * main - Program to print '_putchar' on standard output
  *
  * Return:0
  */
