@@ -8,8 +8,7 @@
  *
  * printing - printing _putchar
  * 
- * Decription: print _putchar
- *
+ * Return: on success 1
  */
 void printing(void)
 {
