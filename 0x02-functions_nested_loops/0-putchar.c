@@ -6,9 +6,7 @@
  *
  * Return: 0
  *
- * printing - printing _putchar
- * 
- * Return: on success 1
+ ** printing - printing _putchar
  */
 void printing(void)
 {
