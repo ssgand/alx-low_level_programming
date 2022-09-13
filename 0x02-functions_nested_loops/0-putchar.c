@@ -3,14 +3,11 @@
 
 /**
  * main - printing '_putchar' on standard output
- *
- * Return: 0
- */
-/**
  * printing - printing _putchar
  * @void: no return
  *
- * print _putchar
+ *
+ * Return: 0
  */
 void printing(void)
 {
