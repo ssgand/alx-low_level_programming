@@ -2,18 +2,19 @@
 #include <stdio.h>
 
 /**
- * main - printing '_putchar' on standard output
- * printing - printing _putchar
- * @void: no return
- *
- *
- * Return: 0
+ * printing - printing '_putchar' on standard output
+ * This function prints _putcchar
  */
 void printing(void)
 {
 	printf("_putchar\n");
 }
 
+/**
+ * main - invoke printing()
+ *
+ * Return: 0
+ */
 int main(void)
 {
 	printing();
