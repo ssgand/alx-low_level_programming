@@ -2,12 +2,13 @@
 
 /**
  * *string_toupper - program to change lower case letters to uppercase
- * 
+ * @p: an array of strings
+ *
  * Return: a character
  */
 char *string_toupper(char *p)
 {
-	char i;
+	int i;
 
 	for (i = 0; p[i] != '\0'; i++)
 	{
@@ -17,6 +18,6 @@ char *string_toupper(char *p)
 		}
 	}
 	return (p);
-}	
+}
 
 
