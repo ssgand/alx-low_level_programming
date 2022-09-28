@@ -10,7 +10,7 @@
 int _pow_recursion(int x, int y)
 {
 	int n = 1;
-	
+
 	if (y < 0)
 	{
 		return (-1);
@@ -20,6 +20,6 @@ int _pow_recursion(int x, int y)
 		return (1);
 	}
 	n *= x;
-	return ( n *= _pow_recursion(x, y - 1));
+	return (n *= _pow_recursion(x, y - 1));
 }
 
