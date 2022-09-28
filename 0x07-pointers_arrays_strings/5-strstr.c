@@ -3,18 +3,18 @@
 /**
  * *_strstr - function that locates a substring
  * @haystack: parameter
- * @neddle: parameter
+ * @needle: parameter
  *
  * Return: a character or a string
  */
 char *_strstr(char *haystack, char *needle)
 {
-	for (haystack = 0; *haystack != '\0'; haystack++)
+	for (; *haystack != '\0'; haystack++)
 	{
 		char *i = haystack;
 		char *j = needle;
 
-		while ( *i == *j && *j != '\0')
+		while (*i == *j && *j != '\0')
 		{
 			i++;
 			j++;
