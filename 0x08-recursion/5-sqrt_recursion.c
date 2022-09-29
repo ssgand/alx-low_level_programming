@@ -8,7 +8,6 @@
  */
 int _sqrt_recursion(int n)
 {
-	int x;
 	if (n == 0 || n == 1)
 	{
 		return (n);
@@ -18,8 +17,8 @@ int _sqrt_recursion(int n)
 
 /**
  * _sqrt - function that returrn the square root of any given number
- * @n: test number, parameter
- * @x: squared number, parameter
+ * @n: parameter
+ * @x: parameter
  *
  * Return: integer
  */
