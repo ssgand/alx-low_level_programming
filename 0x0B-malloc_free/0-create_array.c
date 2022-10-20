@@ -22,6 +22,7 @@ char *create_array(unsigned int size, char c)
 	else if (n == NULL)
 	{
 		printf("Not enough memory!\n");
+		return (NULL);
 	}
 
 	else
