@@ -19,6 +19,11 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 
+	else if (n == NULL)
+	{
+		printf("Not enough memory!\n");
+	}
+
 	else
 	{
 		for (i = 0; i < size; i++)
