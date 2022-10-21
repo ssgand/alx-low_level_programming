@@ -2,7 +2,7 @@
 
 /**
  * list_len - function that print the number of elements in a linked list
- * @h: head of the list 
+ * @h: head of the list
  *
  * Return: nodes count
  */
