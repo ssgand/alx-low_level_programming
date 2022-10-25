@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * free-listint - function to free a linked list
+ * free_listint - function to free a linked list
  * @head: pointer to the first element of the list
  *
  * Return: Nothing
