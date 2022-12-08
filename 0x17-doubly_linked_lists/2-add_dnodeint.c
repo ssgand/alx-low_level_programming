@@ -1,7 +1,8 @@
 #include "lists.h"
 
 /**
- * dlistint_t *add_dnodeint - function to add a node at the beginning of a linked list
+ * dlistint_t *add_dnodeint - function to add a node at the beginning
+ * of a linked list
  * @head: the first node
  * @n: the element to add
  *
@@ -19,6 +20,10 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 	new->n = n;
 	new->prev = NULL;
 	new->next = *head;
+	if (*head != NULL)
+	{
+		(*head)->prev = new;
+	}
 	*head = new;
 
 	return (new);
