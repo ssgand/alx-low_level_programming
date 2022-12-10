@@ -5,6 +5,8 @@
  * position
  * @head: pointer to the first node
  * @index: position in the linked list of the node to return
+ *
+ * Return: a node at the position specified
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
@@ -14,12 +16,12 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 	t = head;
 	if (t == NULL)
 	{
-		return(NULL);
+		return (NULL);
 	}
 	else
 	{
 		while (t != NULL)
-		{	
+		{
 			if (count == index)
 			{
 				break;
